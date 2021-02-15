@@ -1,9 +1,13 @@
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Item {
-    public String name;
+	public String name;
 	public int sellIn; 
-    public int quality; 
-    
+    public int quality;
+
+
     public Item(String name, int sellIn, int quality) {
 		this.setName(name);
 		this.setSellIn(sellIn);
@@ -29,4 +33,12 @@ public class Item {
 	public void setQuality(int quality) {
 		this.quality = quality;
 	}
+
+
+
+
+
+
 }
+
+
